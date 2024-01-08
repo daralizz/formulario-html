@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Formulário</h1>
+
+<form action="/formulario" method="post">
+
+<!-- Campo para informações -->
+<label for="nome">Nome:</label>
+<br>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+<br>
+
+<!-- Campo de passaword -->
+<label for="senha">Senha:</label>
+<br>
+<input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+<br>
+
+<!-- Campo de e-mail -->
+<label for="email">E-mail:</label>
+<br>
+<input type="email" id="email" name="email" placeholder="Digite seu email" required>
+<br>
+
+<!-- Checkbox para a primeira opção -->
+<label>
+<input type="checkbox" name="opcao1" id="opcao1">
+Python
+</label>
+<br>
+  
+<label>
+<input type="checkbox" name="opcao2" id="opcao2">
+HTML & CSS
+</label>
+<br>
+
+<label>
+<input type="checkbox" name="opcao3" id="opcao3">
+Java
+</label>
+<br>
+    
+<label>
+<input type="checkbox" name="opcao4" id="opcao4">
+JavaScript
+</label>
+<br>
+
+<label>
+<input type="checkbox" name="opcao5" id="opcao5">
+C#
+</label>
+<br>
+
+<label>Sexo:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Masculino</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Feminino</label><br><br></label>
+
+<div class="info-box">
+<label>
+<input type="text" name="informações adicionais" placeholder="Informações adicionais" required>
+</label>
+</div>
+<!-- Botão de envio -->
+<button type="submit">Enviar</button>
+
+<!-- Botão de reset -->
+<button type="reset">Limpar</button>
+
+</form>
+
+</body>
+</html>
